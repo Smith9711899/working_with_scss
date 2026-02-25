@@ -1,3 +1,58 @@
+/* primary colors */
+/* secondary colors */
+p {
+  background-color: orange;
+}
+p button {
+  color: rgb(196, 163, 54);
+}
 
+h1 {
+  color: #e4bc38;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 600;
+  color: #454545;
+  padding: 100px;
+}
 
-/*# sourceMappingURL=style.css.map */
+.swatch {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.swatch div {
+  width: 100px;
+  height: 100px;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+}
+.swatch .primary-100 {
+  background-color: #E3E8F5;
+}
+.swatch .primary-300 {
+  background-color: #889AD0;
+}
+.swatch .primary-500 {
+  background-color: #3453A3;
+}
+.swatch .primary-700 {
+  background-color: #19337A;
+}
+.swatch .primary-900 {
+  background-color: #0B1633;
+}
+.swatch .secondary-100 {
+  background-color: #FFF4E6;
+}
+.swatch .secondary-300 {
+  background-color: #FAD19A;
+}
+.swatch .secondary-500 {
+  background-color: #F5A24D;
+}
+.swatch .secondary-700 {
+  background-color: #A85E14;
+}
+.swatch .secondary-900 {
+  background-color: #4D2A00;
+}/*# sourceMappingURL=style.css.map */
