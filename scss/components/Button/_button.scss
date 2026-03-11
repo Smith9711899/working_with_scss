@@ -1,0 +1,21 @@
+@use "../../foundations/" as *;
+
+.bt-text{
+  font-family: $font-family;
+  color: $secondary-color-700;
+  padding: $space-2;
+}
+
+div {
+  .bt-default{
+    background-color: $primary-color-500;
+  }
+
+  .bt-hover{
+    background-color: $primary-color-300;
+  }
+
+  .bt-pressed{
+    background-color: $primary-color-100;
+  }
+}

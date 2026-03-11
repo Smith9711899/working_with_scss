@@ -1,30 +1,24 @@
 @use "foundations" as *;
+@use "components/Button/button"; 
 $primary-color: #e4bc38;
 
 @mixin heading-defalts {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: 600;
+    font-weight: 200;
     color: #454545;
 }
 
-p{
-    background-color: orange;
-
-    button {
-        color: rgb(196, 163, 54);
-    }
-}
 
 h1 {
     color: $primary-color;
     @include heading-defalts;
-    padding: $spacing;
+    padding: $space-4;
 }
 
 .swatch {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  
   
 
   div{
@@ -65,5 +59,65 @@ h1 {
   .secondary-900{
     background-color: $secondary-color-900;
   }
+
+  .grayScale-100{
+    background-color: $grayScale-color-100;
+  }
+  .grayScale-300{
+    background-color: $grayScale-color-300;
+  }
+  .grayScale-500{
+    background-color: $grayScale-color-500;
+  }
+  .grayScale-700{
+    background-color: $grayScale-color-700;
+  }
+  .grayScale-900{
+    background-color: $grayScale-color-900;
+  }
 }
+
+.space-text{
+  color: $grayScale-color-100;
+}
+
+.spacing-box {
+  height: 16px;
+
+
+  .space-1 { 
+    width: $space-1; 
+    background-color: $primary-color-700;
+  }
+  .space-2 { 
+    width: $space-2; 
+    background-color: $primary-color-700;
+  }
+  .space-3 { 
+    width: $space-3; 
+    background-color: $primary-color-700;
+  }
+  .space-4 { 
+    width: $space-4; 
+    background-color: $primary-color-700;
+  }
+  .space-5 { 
+    width: $space-5; 
+    background-color: $primary-color-700;
+  }
+  .space-6 { 
+    width: $space-6; 
+    background-color: $primary-color-700;
+  }
+  .space-7 { 
+    width: $space-7; 
+    background-color: $primary-color-700;
+  }
+  .space-8 { 
+    width: $space-8; 
+    background-color: $primary-color-700;
+    
+  }
+}
+
 
