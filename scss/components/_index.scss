@@ -1,1 +1,5 @@
 @use "foundations" as *;
+
+@forward "Button/button";
+@forward "card/card";
+@forward "nav/nav";

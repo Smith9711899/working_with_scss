@@ -1,5 +1,6 @@
 @use "foundations" as *;
-@use "components/Button/button"; 
+@use "components/index" as *;
+
 $primary-color: #e4bc38;
 
 @mixin heading-defalts {
