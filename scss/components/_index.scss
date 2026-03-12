@@ -1,4 +1,5 @@
-@use "foundations" as *;
+@use "../foundations/" as *;
+@use "../foundations/colours" as *;
 
 @forward "Button/button";
 @forward "card/card";

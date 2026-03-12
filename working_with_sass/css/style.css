@@ -8,7 +8,7 @@
 body {
   font-family: "Inter", Arial, sans-serif;
   font-size: 1rem;
-  line-height: 1rem;
+  line-height: 2rem;
   font-weight: 400;
 }
 
@@ -60,7 +60,7 @@ div .bt-pressed {
 }
 
 .nav {
-  background: #f5f5f5;
+  background-color: #19337A;
   padding: 1rem;
 }
 .nav__list {
@@ -73,6 +73,7 @@ div .bt-pressed {
 .nav a {
   text-decoration: none;
   font-weight: 600;
+  color: #FAD19A;
 }
 
 h1 {
