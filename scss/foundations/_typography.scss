@@ -37,7 +37,7 @@ $font-bold: 700;
 body {
   font-family: $font-primary;
   font-size: $text-md;
-  line-height: 2rem;
+  line-height: $line-normal;
   font-weight: $font-regular;
 }
 
