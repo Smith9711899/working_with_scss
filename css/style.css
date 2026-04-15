@@ -76,73 +76,6 @@ div .bt-pressed {
   color: #FAD19A;
 }
 
-.input-group {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  margin-bottom: 24px;
-  max-width: 300px;
-}
-
-.input-label {
-  font-size: 14px;
-  color: #333;
-}
-
-.input-field {
-  padding: 10px 12px;
-  border: 1px solid #8aa0c6;
-  border-radius: 8px;
-  font-size: 14px;
-  outline: none;
-  transition: all 0.2s ease;
-}
-.input-field::-moz-placeholder {
-  color: #6b7a99;
-}
-.input-field::placeholder {
-  color: #6b7a99;
-}
-.input-field:focus {
-  border-color: #3b5bcc;
-  box-shadow: 0 0 0 2px rgba(59, 91, 204, 0.2);
-}
-
-.input-helper {
-  font-size: 12px;
-  color: #6b7a99;
-}
-
-.input-group--error .input-field {
-  border-color: #d64545;
-}
-.input-group--error .input-helper {
-  color: #d64545;
-}
-
-.input-group--success .input-field {
-  border-color: #2e9e6f;
-}
-.input-group--success .input-helper {
-  color: #2e9e6f;
-}
-
-.input-field:focus {
-  border-color: #3b5bcc;
-}
-
-.input-field:disabled {
-  background-color: #e5e9f2;
-  color: #9aa5b1;
-  cursor: not-allowed;
-}
-
-.inputs-container {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
 h1 {
   color: #e4bc38;
   font-weight: 200;
@@ -245,4 +178,6 @@ h1 {
 .spacing-box .space-8 {
   width: 4rem;
   background-color: #889AD0;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */
