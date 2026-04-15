@@ -1,3 +1,5 @@
+@use "../../foundations/" as *;
+
 .checkbox-group {
   display: flex;
   flex-direction: column;
@@ -23,17 +25,16 @@
   position: relative;
 }
 
-.checkbox input:checked + .checkbox-custom {
-  background: #3b5bcc;
-  border-color: #3b5bcc;
+.checkbox-custom {
+  background: $primary-color-300;
+  border-color: $primary-color-300;
 }
 
-.checkbox input:checked + .checkbox-custom::after {
+.checkbox-custom::after {
   content: "✓";
   color: white;
   font-size: 12px;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
 }

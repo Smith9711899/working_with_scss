@@ -86,31 +86,29 @@ div .bt-pressed {
 
 .input-label {
   font-size: 14px;
-  color: #333;
+  color: #4D2A00;
 }
 
 .input-field {
   padding: 10px 12px;
-  border: 1px solid #8aa0c6;
+  border: 1px solid #19337A;
   border-radius: 8px;
   font-size: 14px;
-  outline: none;
-  transition: all 0.2s ease;
 }
 .input-field::-moz-placeholder {
-  color: #6b7a99;
+  color: #889AD0;
 }
 .input-field::placeholder {
-  color: #6b7a99;
+  color: #889AD0;
 }
 .input-field:focus {
-  border-color: #3b5bcc;
-  box-shadow: 0 0 0 2px rgba(59, 91, 204, 0.2);
+  border-color: #19337A;
+  box-shadow: 0 0 0 2px #19337A;
 }
 
 .input-helper {
   font-size: 12px;
-  color: #6b7a99;
+  color: #889AD0;
 }
 
 .input-group--error .input-field {
@@ -128,12 +126,12 @@ div .bt-pressed {
 }
 
 .input-field:focus {
-  border-color: #3b5bcc;
+  border-color: #19337A;
 }
 
 .input-field:disabled {
-  background-color: #e5e9f2;
-  color: #9aa5b1;
+  background-color: #E5E5E5;
+  color: #9D9D9D;
   cursor: not-allowed;
 }
 

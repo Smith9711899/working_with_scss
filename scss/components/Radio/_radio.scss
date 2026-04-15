@@ -1,3 +1,5 @@
+@use "../../foundations/" as *;
+
 .radio-group {
   display: flex;
   flex-direction: column;
@@ -18,23 +20,21 @@
 .radio-custom {
   width: 16px;
   height: 16px;
-  border: 2px solid #8aa0c6;
+  border: 2px solid $primary-color-700;
   border-radius: 50%;
   position: relative;
 }
 
-.radio input:checked + .radio-custom {
-  border-color: #3b5bcc;
+.radio-custom {
+  border-color: $primary-color-300;
 }
 
-.radio input:checked + .radio-custom::after {
-  content: "";
+.radio-custom::after {
   width: 8px;
   height: 8px;
-  background: #3b5bcc;
+  background: $primary-color-300;
   border-radius: 50%;
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
 }

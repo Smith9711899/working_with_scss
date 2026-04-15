@@ -1,28 +1,20 @@
-.select-wrapper {
-  position: relative;
-}
+@use "../../foundations/" as *;
 
 .select-field {
   width: 100%;
   padding: 10px 12px;
-  border: 1px solid #8aa0c6;
+  border: 1px solid $primary-color-700;
   border-radius: 8px;
   font-size: 14px;
-  appearance: none;
   background: white;
   cursor: pointer;
 
   &:focus {
-    border-color: #3b5bcc;
-    box-shadow: 0 0 0 2px rgba(59, 91, 204, 0.2);
-    outline: none;
+    border-color: $primary-color-300;
   }
 }
 
 .select-wrapper::after {
-  content: "▾";
-  position: absolute;
   right: 12px;
   top: 50%;
-  transform: translateY(-50%);
 }
