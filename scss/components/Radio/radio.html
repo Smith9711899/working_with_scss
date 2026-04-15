@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../../../working_with_sass/css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Buttons Page</title>
+    </head>
+    <body>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li><a href="../../../index.html">Home</a></li>
+                <li><a href="../../../docs/colours.html">Colours</a></li>
+                <li><a href="../../../docs/spacing.html">Spacing</a></li>
+                <li><a href="../../../docs/typography.html">Typography</a></li>
+                <li><a href="../Button/button.html">Buttons</a></li>
+                <li><a href="../Input/input.html">Inputs</a></li>
+                <li><a href="../Password/password.html">Password inputs</a></li>
+                <li><a href="../Select/select.html">Selects</a></li>
+                <li><a href="radio.html">Radio buttons</a></li>
+                <li><a href="../Checkbox/checkbox.html">Checkboxes</a></li>
+            </ul>
+        </nav>
+        
+        <h1>Radio Buttons</h1>
+
+        <div class="inputs-container">
+
+<!-- Default -->
+            <div class="input-group">
+                <label class="input-label">Choose one</label>
+                <div class="radio-group">
+                    <label class="radio">
+                        <input type="radio" name="r1" />
+                        <span class="radio-custom"></span>
+                        Option 1
+                    </label>
+                    <label class="radio">
+                        <input type="radio" name="r1" />
+                        <span class="radio-custom"></span>
+                        Option 2
+                    </label>
+                </div>
+            </div>
+
+<!-- Error -->
+            <div class="input-group input-group--error">
+                <label class="input-label">Choose one</label>
+                <div class="radio-group">
+                    <label class="radio">
+                        <input type="radio" name="r2" />
+                        <span class="radio-custom"></span>
+                        Option 1
+                    </label>
+                </div>
+            </div>
+
+<!-- Success -->
+            <div class="input-group input-group--success">
+                <label class="input-label">Choose one</label>
+                <div class="radio-group">
+                    <label class="radio">
+                        <input type="radio" name="r3" />
+                        <span class="radio-custom"></span>
+                        Option 1
+                    </label>
+                </div>
+            </div>
+        </div>        
+    </body>
+</html>
