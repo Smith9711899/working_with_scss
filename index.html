@@ -9,7 +9,7 @@
     <body>
         <nav class="nav">
             <ul class="nav__list">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html"><b>Home</b></a></li>
                 <li><a href="docs/colours.html">Colours</a></li>
                 <li><a href="docs/spacing.html">Spacing</a></li>
                 <li><a href="docs/typography.html">Typography</a></li>
@@ -18,9 +18,96 @@
                 <li><a href="scss/components/Password/password.html">Password inputs</a></li>
                 <li><a href="scss/components/Select/select.html">Selects</a></li>
                 <li><a href="scss/components/Radio/radio.html">Radio buttons</a></li>
-                <li><a href="scss/components/Checkbox/checkbox.html">Checkboxes</a></li>
+                <li><a href="scss/components/Cheackbox/checkbox.html">Checkboxes</a></li>
             </ul>
         </nav>
-        <h1>Index</h1>
+        
+
+    <header>
+        <h1>Design System</h1>
+        <p>This is a reusable UI system for consistent design and development.</p>
+        <p>Made By: Jonathan Smith</p>
+    </header><br/>
+
+    <main>
+        <section>
+        <h2>Design Tokens</h2><br/>
+
+        <h3>Colors</h3>
+            <div class="token">
+                <p><strong>$primary-color-700</strong>: #889AD0</p>
+                <p>This is used for things such as primary buttons, links...</p>
+            </div>
+
+            <div class="token">
+                <p><strong>$success-color</strong>: #28a745</p>
+                <p>This is used for success states (e.g. selected radio)</p>
+            </div>
+
+        <h3>Spacing</h3>
+            <div class="token">
+                <p><strong>$space-2</strong>: 8px or 0.5rem</p>
+                <a>This is used for making space between something like a checkbox and text</a>
+                <p><strong>$space-4</strong>: 16px or 1rem</p>
+                <a>This is used to make space for something like a heading and text</a>
+            </div>
+
+        <h3>Typography</h3>
+            <div class="token">
+                <p><strong>Font</strong>: Inter, sans-serif</p>
+                <p><strong>Base size</strong>: 16px</p>
+                <a>In the typography has many pre-sets made, the < body > has the font family, font size,  </a><br/>
+                <a>line height and font weight has been give per-sets to keep everything uniform</a>
+            </div>
+
+        <h3>Button</h3>
+            <div>
+                <button class="bt-default">
+                    <imput class="bt-text">
+                        Default Button
+                    </imput> 
+                </button><br/>
+                <a>The buttons have been made as shown above and in the Button page shows multiple button types</a>
+            </div>
+
+        <h3>Checkbox</h3>
+            <div class="input-group">
+                <label class="input-label">Select options</label>
+                <div class="checkbox-group">
+                    <label class="checkbox">
+                        <input type="checkbox" />
+                        <span class="checkbox-custom"></span>
+                        Option 1
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" />
+                        <span class="checkbox-custom"></span>
+                        Option 2
+                    </label>
+                </div>
+                <a>This are the cheakboxs</a>
+            </div>
+
+        <h3>Input</h3>
+            <div>
+                
+            </div>
+
+        <h3>Password</h3>
+            <div>
+                
+            </div>
+
+        <h3>Radio</h3>
+            <div>
+                
+            </div>
+
+        <h3>Select</h3>
+            <div>
+                
+            </div>
+
+        </section>
     </body>
 </html>

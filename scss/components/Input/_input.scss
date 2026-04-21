@@ -46,11 +46,11 @@
 
 .input-group--success {
   .input-field {
-    border-color: #2e9e6f;
+    border-color: $success-color-500;
   }
 
   .input-helper {
-    color: #2e9e6f;
+    color: $success-color-500;
   }
 }
 

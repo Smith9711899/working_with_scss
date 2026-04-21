@@ -1,0 +1,22 @@
+@use "../../foundations/" as *;
+
+.input-group--error {
+  pointer-events: none;
+
+  .checkbox-error {
+
+    .checkbox-custom{
+      color: $error-color-500;
+    }
+  }
+}
+
+.input-group--success{
+
+  .checkbox-success{
+
+    .checkbox-custom{
+      color: $success-color-500;
+    }
+  }
+}

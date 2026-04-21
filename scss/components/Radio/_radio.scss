@@ -11,30 +11,86 @@
   align-items: center;
   gap: 8px;
   cursor: pointer;
+  position: relative;
 
   input {
-    display: none;
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+
+    &:checked + .radio-custom {
+      border-color: $primary-color-500;
+
+      &::after {
+        content: "";
+        width: 8px;
+        height: 8px;
+        background: $primary-color-500;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    &:focus-visible + .radio-custom {
+      outline: 2px solid $primary-color-500;
+      outline-offset: 2px;
+    }
   }
 }
 
 .radio-custom {
   width: 16px;
   height: 16px;
-  border: 2px solid $primary-color-700;
+  border: 2px solid $primary-color-300;
   border-radius: 50%;
   position: relative;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
 }
 
-.radio-custom {
-  border-color: $primary-color-300;
+.radio-label {
+  line-height: 1;
 }
 
-.radio-custom::after {
-  width: 8px;
-  height: 8px;
-  background: $primary-color-300;
-  border-radius: 50%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+
+// ERROR STATE
+.input-group--error {
+  .radio {
+    .radio-custom {
+      border-color: $error-color-500;
+    }
+
+    input {
+      &:checked + .radio-custom {
+        border-color: $error-color-500;
+
+        &::after {
+          background: $error-color-500;
+        }
+      }
+    }
+  }
+}
+
+
+// SUCCESS STATE
+.input-group--success {
+  .radio {
+    .radio-custom {
+      border-color: $success-color-500;
+    }
+
+    input {
+      &:checked + .radio-custom {
+        border-color: $success-color-500;
+
+        &::after {
+          background: $success-color-500;
+        }
+      }
+    }
+  }
 }
